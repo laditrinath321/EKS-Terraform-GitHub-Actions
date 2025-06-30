@@ -10,7 +10,7 @@ terraform {
     bucket         = "dev-trinath-tf-bucket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "dev-trinath-tf-bucket"
+    dynamodb_table = "dev-trinath-tf-locks"
     encrypt        = true
   }
 }
